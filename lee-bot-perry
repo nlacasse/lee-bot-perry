@@ -1,0 +1,9 @@
+export HUBOT_IRC_SERVER="iriecycle.net"
+export HUBOT_IRC_ROOMS="#italisvital,#irieirc"
+export HUBOT_IRC_NICK="Lee_Bot_Perry"
+export HUBOT_IRC_PORT="6601"
+export HUBOT_IRC_USESSL=1
+export HUBOT_IRC_SERVER_FAKE_SSL=1
+export HUBOT_IRC_DEBUG=1
+
+./bin/hubot -a irc
