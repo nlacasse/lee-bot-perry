@@ -5,5 +5,6 @@ export HUBOT_IRC_PORT="6601"
 export HUBOT_IRC_USESSL=1
 export HUBOT_IRC_SERVER_FAKE_SSL=1
 export HUBOT_IRC_DEBUG=1
+export HUBOT_WUNDERGROUND_API_KEY="8259db74ebc51dd7"
 
 ./bin/hubot -a irc
