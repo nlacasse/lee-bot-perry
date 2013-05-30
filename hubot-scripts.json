@@ -1,1 +1,7 @@
-["redis-brain.coffee", "tweet.coffee", "shipit.coffee", "moarcatsme.coffee"]
+["redis-brain.coffee",
+"tweet.coffee",
+"shipit.coffee",
+"moarcatsme.coffee",
+"remind.coffee",
+"vanity.coffee",
+"cowsay.coffee"]
