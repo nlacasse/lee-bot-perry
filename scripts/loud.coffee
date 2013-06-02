@@ -1,5 +1,5 @@
 # Description:
-#   gets a tweet from loudbot
+#   gets a tweet from LOUDBOT
 #
 # Dependencies:
 #   None
@@ -8,7 +8,7 @@
 #   None
 #
 # Commands:
-#   hubot loud - randomize one of the recent 100 tweets
+#   ANYTHING CAPS - randomize one of the recent 100 tweets from LOUDBOT
 #
 # Author:
 #   Oren
