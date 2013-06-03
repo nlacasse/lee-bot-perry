@@ -7,4 +7,4 @@ export HUBOT_IRC_SERVER_FAKE_SSL=1
 export HUBOT_IRC_DEBUG=1
 export HUBOT_WUNDERGROUND_API_KEY="8259db74ebc51dd7"
 
-./bin/hubot -a irc
+forever start --pidFile ./lee-bot-perry.pid -o ./lee-bot-perry.log -e ./lee-bot-perry.err -c bash ./bin/hubot -a irc
