@@ -14,7 +14,7 @@
 #   Oren
 #
 module.exports = (robot) ->
-  robot.hear /(^[^a-z]*$)/, (msg) ->
+  robot.hear /(^[^a-z]*[A-Z][^a-z]*$)/, (msg) ->
    index = Math.floor(Math.random() * 99)
    msg.http("http://api.twitter.com/1/statuses/user_timeline/loudbot.json?count=100&include_rts=true")
     .get() (err, res, body) ->
