@@ -20,6 +20,6 @@ module.exports = (robot) ->
     .get() (err, res, body) ->
       response = JSON.parse body
       if response[index]
-        msg.send response[index]["text"]
+        msg.send response[index]["text"].replace(/^@[\S]+ /, '')
       else
         msg.send "Error"
