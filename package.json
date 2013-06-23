@@ -19,7 +19,8 @@
     "hubot-irc": ">= 0.0.1",
     "hubot-scripts": ">=2.0.8",
     "optparse": "1.0.3",
-    "cleverbot-node": "0.1.1"
+    "cleverbot-node": "0.1.1",
+    "loudbot": "~0.0.1"
   }
 }
 
