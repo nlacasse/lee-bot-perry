@@ -16,7 +16,7 @@
 loud = require 'loudbot'
 
 module.exports = (robot) ->
-  robot.hear /(^[^a-z]*$)/, (msg) ->
+  robot.hear /(^[^a-z]*[A-Z][^a-z]*$)/, (msg) ->
     loud (err, tweet) ->
       if err
         msg.send "Error"
