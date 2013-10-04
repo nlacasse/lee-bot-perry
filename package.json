@@ -1,26 +1,25 @@
 {
-  "name":        "hosted-hubot",
-  "version":     "2.2.0",
-  "author":      "GitHub Inc.",
-  "keywords":    "github hubot campfire bot",
+  "name": "hosted-hubot",
+  "version": "2.2.0",
+  "author": "GitHub Inc.",
+  "keywords": "github hubot campfire bot",
   "description": "A simple helpful Robot for your Company",
-  "licenses":     [{
-    "type":       "MIT",
-    "url":        "http://github.com/github/hubot/raw/master/LICENSE"
-  }],
-
-  "repository" : {
-    "type" : "git",
-    "url" : "http://github.com/github/hubot.git"
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/github/hubot/raw/master/LICENSE"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/github/hubot.git"
   },
-
   "dependencies": {
-    "hubot": ">=2.2.0",
-    "hubot-irc": ">= 0.0.1",
-    "hubot-scripts": ">=2.0.8",
+    "hubot": "~2.6.3",
+    "hubot-irc": "~0.1.19",
+    "hubot-scripts": "~2.5.6",
     "optparse": "1.0.3",
     "cleverbot-node": "0.1.1",
-    "loudbot": "~0.0.1"
+    "loudbot": "0.0.9"
   }
 }
-
